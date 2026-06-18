@@ -1,0 +1,14 @@
+dataset,rows,clusters,fields,two_source_agreement,vote_time_s,canonical_rows,coverage,determinism_mismatches
+dirty_dblp_acm,11120,2220,4,0.1972,0.015,7261,0.8177,0
+dirty_dblp_scholar,17229,2351,4,0.2473,0.023,7939,0.8442,0
+dirty_itunes_amazon,1132,120,8,0.3392,0.005,754,0.7854,0
+dirty_walmart_amazon,5098,846,5,0.2012,0.009,3284,0.7764,0
+structured_amazon_google,5418,995,3,0.1378,0.009,2985,1.0,0
+structured_beer,531,68,4,0.2346,0.005,271,0.9963,0
+structured_dblp_acm,17746,2220,4,0.549,0.016,8875,0.9994,0
+structured_dblp_scholar,26802,2351,4,0.3658,0.024,9396,0.9991,0
+structured_fodors_zagats,1320,110,6,0.6833,0.006,660,1.0,0
+structured_itunes_amazon,2014,120,8,0.4854,0.006,960,1.0,0
+structured_walmart_amazon,8524,846,5,0.3376,0.011,4215,0.9965,0
+textual_abt_buy,4645,1012,3,0.0162,0.01,2767,0.9114,0
+textual_company,55370,28200,1,0.0,1.183,28200,1.0,0

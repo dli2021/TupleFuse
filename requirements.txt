@@ -1,0 +1,15 @@
+# Python 3.12. Install with: pip install -r requirements.txt
+# Core experiments (preprocessing, fusion operator, quality, determinism,
+# drift, budget, risk, source-count, streaming, portability) need:
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+pyarrow>=14.0
+psutil>=5.9
+polars>=0.20
+duckdb>=0.10
+
+# Optional. Only required to reproduce the Spark local-mode points in the
+# row-scaling figure (exp07_scal_rows.py --spark). PySpark needs a Java 17+
+# runtime on PATH. All other experiments run without it.
+pyspark>=3.5
